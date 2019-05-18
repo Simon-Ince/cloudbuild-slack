@@ -12,7 +12,7 @@
 4. [Deploy from local machine] to your organizations project:
 
 ``` bash
-gcloud beta function deploy <NAME> --stage-bucket <BUCKET_NAME> --trigger-topic cloud-builds --entry-point onbuildstatus
+gcloud beta functions deploy <NAME> --stage-bucket <BUCKET_NAME> --trigger-topic cloud-builds --entry-point onbuildstatus
 ```
 
 ## Development
